@@ -1,0 +1,235 @@
+html {
+   background-image: url("/assets/img/background.png");
+   background-size: 100%;
+   background-repeat: no-repeat;
+ }
+ 
+ nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 24.32%;
+ }
+
+ @media screen and (max-width: 1700px) {
+   nav {
+      width: 300px;
+   }
+
+   html {
+      background-size: 130%;
+   }
+
+   .about__us__img {
+      width: 80%;
+   }
+
+   .welcome__img {
+      width: 90%;
+      margin-left: 100px;
+   }
+
+ }
+ 
+ header {
+   width: 67.5%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ 
+ .container {
+   display: flex;
+   justify-content: center;
+   margin-top: 35px;
+ }
+ 
+ .nav__link {
+   color: #fff;
+   font-family: "Montserrat";
+   text-decoration: none;
+   font-size: 16px;
+ }
+ 
+ .current {
+   text-decoration: underline;
+ }
+ 
+ .filled__button {
+   padding: 12px 24px;
+   color: #fff;
+   font-family: "Montserrat";
+   background-color: #219d80;
+   border: 0;
+   cursor: pointer;
+   font-size: 16px;
+   font-weight: medium;
+ }
+ 
+ .search__block {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 204px;
+ }
+ 
+ .search__button {
+   width: 43px;
+   height: 43px;
+   border: 1px solid #fff;
+   background: none;
+   cursor: pointer;
+ }
+ 
+ main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 200px;
+   color: #fff;
+ }
+ 
+ h4 {
+   font-family: "Montserrat";
+   font-size: 20px;
+   font-weight: 500;
+ }
+ 
+ h1 {
+   font-family: "PlayFair Display";
+   font-size: 72px;
+   font-weight: bold;
+   width: 765px;
+   margin-top: 0px;
+   margin-bottom: 0;
+   text-align: center;
+   line-height: 90px;
+ }
+ 
+ .main__text {
+   font-family: "Montserrat";
+   width: 589px;
+   text-align: center;
+   font-size: 18px;
+   font-weight: 300;
+   line-height: 30px;
+ }
+ 
+ .empty__button {
+   padding: 12px 24px;
+   color: #fff;
+   font-family: "Montserrat";
+   border: 1px solid #219d80;
+   cursor: pointer;
+   background: none;
+   font-size: 16px;
+   font-weight: medium;
+ }
+ 
+ .main__buttons {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 393px;
+   margin-top: 40px;
+ }
+ 
+ .about__us {
+   margin-top: 550px;
+   margin-left: 16.25%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 56.92%;
+ }
+ 
+ h3 {
+   font-family: "Montserrat";
+   font-size: 18px;
+   color: #252a34;
+ }
+ 
+ h3::after {
+   margin-bottom: 4px;
+   content: "";
+   display: inline-block;
+   width: 60px;
+   height: 1px;
+   background-color: rgba(0, 0, 0, 0.2);
+   margin-left: 8px;
+ }
+ 
+ h2 {
+   font-family: "PlayFair Display";
+   font-weight: bold;
+   font-size: 39px;
+   line-height: 50px;
+   color: #252a34;
+   width: 403px;
+   margin-top: 0;
+   margin-bottom: 0;
+ }
+ 
+ .block__text {
+   font-family: "Montserrat";
+   color: #444444;
+   width: 433px;
+   line-height: 26px;
+ }
+ 
+ .welcome__block {
+   width: 67.5%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 200px;
+   margin-left: 16.25%;
+ }
+ 
+ .welcome {
+   width: 541px;
+ }
+
+ .welcome__blocks {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 530px;
+ }
+
+ .mission__block {
+   width: 232px;
+   height: 144px;
+   background-color: #EDF7F5;
+   padding: 0px 10px 0px 10px;
+ }
+
+ .vission__block {
+   width: 232px;
+   height: 144px;
+   background-color: #EDF7F5;
+   padding: 0px 10px 0px 10px;
+ }
+
+ .block__line {
+   display: flex;
+   align-items: center;
+
+ }
+
+ .block__title {
+   font-family: 'Nunito';
+   color: #219D80;
+   font-weight: 700;
+   font-size: 20px;
+   margin-left: 15px;
+ }
+
+ .subblock__text {
+   color: #555555;
+   font-family: 'Montserrat';
+   font-weight: 400;
+   margin-top: 0;
+   font-size: 14px;
+   width: 204px;
+ }
