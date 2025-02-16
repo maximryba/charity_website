@@ -1,0 +1,354 @@
+h3 {
+   font-family: "Montserrat";
+   font-size: 18px;
+   color: #252a34;
+ }
+
+ html {
+   background-size: 100% 400px;
+ }
+ 
+ h3::after {
+   margin-bottom: 4px;
+   content: "";
+   display: inline-block;
+   width: 60px;
+   height: 1px;
+   background-color: rgba(0, 0, 0, 0.2);
+   margin-left: 8px;
+ }
+
+ main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-top: 75px;
+ }
+
+ .main__container {
+   margin-top: 250px;
+   margin-left: 16.25%;
+ }
+
+ h2 {
+   font-family: "PlayFair Display";
+   font-weight: bold;
+   font-size: 39px;
+   line-height: 50px;
+   color: #252a34;
+   width: 431px;
+   margin-top: 10px;
+   margin-bottom: 0;
+ }
+
+ h1 {
+   font-family: "PlayFair Display";
+   font-size: 72px;
+   font-weight: bold;
+   width: 765px;
+   margin-top: 0px;
+   margin-bottom: 0;
+   text-align: center;
+   line-height: 90px;
+   color: #fff;
+ }
+ 
+ .main__text {
+   font-family: "Montserrat";
+   width: 589px;
+   text-align: center;
+   font-size: 18px;
+   font-weight: 300;
+   color: #fff;
+   margin-top: 30px;
+   line-height: 30px;
+ }
+
+ 
+.popular__blocks {
+   margin-top: 50px;
+   margin-left: 16.25%;
+   display: flex;
+   margin-right: 16.25%;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+ }
+ 
+ .popular__line {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 70vw;
+   margin-top: 30px;
+ }
+ 
+ .popular__block {
+   width: 306px;
+   margin-top: 30px;
+   margin-right: 30px;
+   cursor: pointer;
+ }
+
+ .popular__block:hover {
+   .popular__img__hover {
+      display: block;
+   }
+   .popular__img {
+      display: none;
+   }
+ }
+
+ .popular__img__hover {
+   display: none;
+ }
+ 
+ .popular__header {
+   width: 431px;
+ }
+ 
+ .popular__block__container {
+   height: 312px;
+   width: 286px;
+   background-color: #fff;
+   box-shadow: 0px 10px 25px 0px #252a3414;
+   margin-top: -18px;
+   padding: 15px 5px 15px 15px;
+ }
+ 
+ .popular__block__section {
+   color: #219d80;
+   font-family: "Montserrat";
+   font-weight: 600;
+   margin-top: 20px;
+   margin-bottom: 20px;
+ }
+ 
+ h6 {
+   font-family: "Playfair Display";
+   color: #252a34;
+   font-weight: 700;
+   margin-bottom: 20px;
+   font-size: 20px;
+ }
+ 
+ .popular__block__text {
+   color: #555555;
+   font-family: "Montserrat";
+   font-weight: 400;
+   margin-top: 20px;
+   margin-bottom: 10px;
+   font-size: 14px;
+ }
+ 
+ .popular__bar__text {
+   color: #252a34;
+   margin-bottom: 10px;
+   font-family: "Montserrat";
+   margin-top: 10px;
+   font-weight: 400;
+   font-size: 14px;
+ }
+ 
+ .upper__bar__line {
+   display: flex;
+   align-items: end;
+   justify-content: space-between;
+ }
+ 
+ .below__bar__line {
+   display: flex;
+   align-items: end;
+   justify-content: space-between;
+ }
+ 
+ .progress {
+   font: 12px Arial, Tahoma, sans-serif;
+   position: relative;
+   overflow: hidden;
+ }
+ 
+ .progress progress {
+   position: absolute;
+   width: 0;
+   height: 0;
+   overflow: hidden;
+   left: -777px;
+ }
+ 
+ .progress-bar {
+   overflow: hidden;
+   background: #219d80;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+ }
+ 
+ .progress-value {
+   background-color: #219d80;
+   display: block;
+   line-height: 21px;
+   text-align: center;
+ }
+ 
+ .progress-bg {
+   background: #c7e7df;
+   position: relative;
+   height: 8px;
+   border-radius: 0px;
+   overflow: hidden;
+ }
+ 
+ .popular__bar__percentage {
+   color: #252a34;
+   font-family: "Montserrat";
+   font-size: 14px;
+ }
+ 
+ .popular__button {
+   border: 1px solid #219d80;
+   width: 134px;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 10px;
+   font-family: "Montserrat";
+   color: #219d80;
+   font-weight: 500;
+   cursor: pointer;
+   background-color: #fff;
+ }
+ 
+ .popular__button:hover {
+   background-color: #219d80;
+   color: #fff;
+   border: 0;
+ }
+
+@media screen and (max-width:768px) {
+
+   html {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 400px;
+      padding: 0;
+      margin: 0;
+      overflow-x: hidden;
+    }
+  
+    body {
+     overflow-x: hidden;
+    }
+   h3 {
+      width: 60vw;
+    }
+
+    h1 {
+      font-size: 36px;
+      line-height: 48px;
+      width: 70vw;
+      color: #fff;
+    }
+  
+    .main__text {
+      width: 70vw;
+      font-size: 16px;
+      color: #fff;
+    }
+
+    h2 {
+      font-size: 24px;
+      line-height: 30px;
+      width: 203px;
+    }
+
+    .subblock__text {
+      width: fit-content;
+    }
+  
+    .line {
+      width: 50vw;
+    }
+  
+    .line::after {
+      margin-left: 50vw;
+    }
+  
+    .bar__line {
+      width: 70vw;
+    }
+  
+    .bar__text {
+      font-size: 1em;
+    }
+  
+    .bar__percentage {
+      font-size: 1em;
+    }
+  
+    .bar {
+      margin-top: 30px;
+    }
+  
+    .popular__blocks {
+      margin-left: 0;
+      padding: 0 15px;
+    }
+  
+    .popular__line {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .popular__block {
+      width: 100%;
+      margin: 10px 0;
+    }
+}
+
+@media screen and (min-width:767px) and (max-width: 769px) {
+   html {
+      height: 200px;
+   }
+
+   .logo {
+      margin-top: 40px;
+   }
+   .popular__line {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+   
+    .popular__block {
+      width: 45%;
+      margin: 10px;
+    }
+ }
+
+@media screen and (min-width:769px) and (max-width:1280px) {
+   
+   html {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 500px;
+      width: 100vw;
+      padding: 0;
+      margin: 0;
+      overflow-x: hidden;
+    }
+
+  .popular__line {
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+
+ .popular__block {
+   width: 45%;
+   margin: 10px;
+ }
+}
