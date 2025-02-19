@@ -143,6 +143,7 @@
       align-items: center;
       margin-left: 0;
       padding: 0 15px;
+      width:auto;
     }
   
     .sponsor__img {

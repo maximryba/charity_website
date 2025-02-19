@@ -390,6 +390,8 @@ h6 {
   main {
     margin-top: 100px;
     width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   h1 {
@@ -415,9 +417,10 @@ h6 {
 
   .about__us {
     flex-direction: column;
-    width: 80vw;
-    align-items: start;
-    margin-left: 0;
+    width: 100vw;
+    
+    margin-left: auto;
+    margin-right: auto;
     padding: 0 15px;
   }
 
@@ -428,7 +431,8 @@ h6 {
   .welcome__block {
     flex-direction: column;
     width: 80%;
-    margin-left: 0;
+    
+    align-items: center;
     padding: 0 15px;
   }
 
@@ -461,9 +465,7 @@ h6 {
     width: 60vw;
   }
 
-  h3 {
-    width: 60vw;
-  }
+  
 
   .left {
     width: 80vw;
@@ -498,7 +500,10 @@ h6 {
   }
 
   .popular__blocks {
-    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   margin-left: 0;
     padding: 0 15px;
   }
 
@@ -509,17 +514,28 @@ h6 {
 
   .popular__block {
     width: 100%;
-    margin: 10px 0;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 20px;
   }
 
   .fun__facts {
-    margin-left: 0;
+    
+   display: flex;
+   flex-direction: column;
+   align-items: center;
     padding: 0 15px;
   }
 
   .fun__facts__blocks {
     flex-direction: column;
     width: 70vw;
+    margin-left: 0;
+  }
+
+  .fun__facts {
+   margin-left: 0;   
   }
 
   .fun__facts__block {
