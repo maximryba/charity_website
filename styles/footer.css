@@ -206,6 +206,8 @@
    .sponsors {
       flex-wrap: wrap;
       width: 60vw;
+      margin-left: auto;
+      margin-right: auto;
       justify-content: center;
     }
   
