@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>GiveLife - FAQ</title>
-   <link href="../favicon.ico" type="Image/x-icon" rel="icon" />
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>GiveLife - Цели</title>
+      <link href="../favicon.ico" type="Image/x-icon" rel="icon" />
       <link rel="stylesheet" href="../styles/header.css">
-      <link rel="stylesheet" href="../styles/faq.css" />
+      <link rel="stylesheet" href="../styles/calendar.css" />
       <link rel="stylesheet" href="../styles/footer.css">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <script src="../scripts/copy.js"></script>
+      <script src="../scripts/calendar.js"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-</head>
+    </head>
 <body>
    <div class="container">
       <header>
@@ -31,7 +32,7 @@
           <a href="../index.html" class="nav__link">Главная</a>
           <a href="./causes.html" class="nav__link">Цели</a>
           <a href="./about_us.html" class="nav__link">О нас</a>
-          <a href="./faq.html" class="nav__link current">FAQ</a>
+          <a href="./faq.html" class="nav__link">FAQ</a>
           <a href="./contact_us.html" class="nav__link">Контакты</a>
         </nav>
         <div class="search__block">
@@ -44,97 +45,22 @@
     </div>
 
     <main>
-      <h1>Часто задаваемые вопросы</h1>
-      <p class="main__text">Главная/FAQ</p>
+      <h1>Календарь событий</h1>
+      <p class="main__text">Главная/Календарь</p>
     </main>
 
-    <div class="faq__container">
-      <h3 id="faq">Есть какие-то вопросы?</h3>
-      <h2 id="faq">Часто задаваемые вопросы</h2>
-      <div class="faq__line">
-         <div class="left">
-            <img loading="lazy" src="../assets/img/faq_rectangle.png" alt="Rectangle" class="faq__img">
-         </div>
-         <div class="right">
-            <div class="faq__blocks">
-               <div class="faq__block opened">
-                  <div class="faq__left">
-                     <p class="faq__title">Измените жизнь ребёнка</p>
-                  <p class="faq__ans">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                     eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
-                  </div>
-                  <div class="faq__right">
-                     <p class="faq__sign">-</p>
-                  </div>
-               </div>
-               <div class="faq__block">
-                  <div class="faq__left">
-                     <p class="faq__title">Давайте делать правильные вещи сейчас</p>
-                  <p class="faq__ans"></p>
-                  </div>
-                  <div class="faq__right">
-                     <p class="faq__sign">+</p>
-                  </div>
-               </div>
-               <div class="faq__block">
-                  <div class="faq__left">
-                     <p class="faq__title">Могу я пожертвовать анонимно?</p>
-                  <p class="faq__ans"></p>
-                  </div>
-                  <div class="faq__right">
-                     <p class="faq__sign">+</p>
-                  </div>
-               </div>
-               <div class="faq__block">
-                  <div class="faq__left">
-                     <p class="faq__title">Протяни свою руку с нами к лучшей жизни</p>
-                  <p class="faq__ans"></p>
-                  </div>
-                  <div class="faq__right">
-                     <p class="faq__sign">+</p>
-                  </div>
-               </div>
-               <div class="faq__block">
-                  <div class="faq__left">
-                     <p class="faq__title">Как я могу отменить повторное пожертвование?</p>
-                  <p class="faq__ans"></p>
-                  </div>
-                  <div class="faq__right">
-                     <p class="faq__sign">+</p>
-                  </div>
-               </div>
+    <div class="calendar">
+        <h3 class="calendar-header">Интерактивный Календарь</h1>
+            <div class="calendar__inputs">
+                <input type="date" id="datePicker" class="date-picker">
+            <input type="text" id="eventDescription" placeholder="Описание события" />
             </div>
-         </div>
-      </div>
+            
+            <button class="filled__button" onclick="addEvent()">Добавить событие</button>
+
+            <div class="event-list" id="eventList"></div>
     </div>
 
-    <h2 id="help">Ещё нужна помощь</h2>
-    <p class="help__text__head">
-      Нам нравится адаптировать наши стратегии, чтобы предложить
-каждому клиенту лучшие решения, которые есть
-в авангарде отрасли.
-    </p>
-
-    <div class="help__line">
-      <div class="help__block">
-         <img loading="lazy" src="../assets/img/support.png" alt="Support" class="help__img">
-         <p class="help__title">Тех поддержка</p>
-         <p class="help__text">
-            С вами свяжется наш оператор, и ответит на все ваши вопросы</p>
-      </div>
-      <div class="help__block">
-         <img loading="lazy" src="../assets/img/chat.png" alt="Chat" class="help__img">
-         <p class="help__title">Все с нами
-         </p>
-         <p class="help__text">Нас хорошо знают в отрасли
-              благотворительности</p>
-      </div>
-      <div class="help__block">
-         <img loading="lazy" src="../assets/img/address.png" alt="Address" class="help__img">
-         <p class="help__title">Адрес</p>
-         <p class="help__text">2464 Роял Лн. Меса, Москва 45463</p>
-      </div>
-    </div>
 
     <div class="sponsors">
       <img loading="lazy" src="../assets/img/sponsor_one.png" alt="Logotype" class="sponsor__img">
@@ -170,7 +96,7 @@
             <p class="footer__section">Почта</p>
             <div class="footer__input">
                <input type="email" class="email__input" placeholder="Введите вашу почту">
-               <button class="button__subscribe">Subscribe</button>
+               <button class="button__subscribe">Подписаться</button>
             </div>
             <p class="footer__text" id="warning">Ваша почта в безопасности с нами, мы не спамим.</p>
             <p class="footer__section">Подписаться</p>

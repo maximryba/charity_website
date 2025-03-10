@@ -1,0 +1,198 @@
+h3 {
+  font-family: "Montserrat";
+  font-size: 18px;
+  color: #252a34;
+}
+
+html {
+  background-size: 100% 400px;
+}
+
+h3::after {
+  margin-bottom: 4px;
+  content: "";
+  display: inline-block;
+  width: 60px;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-left: 8px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 75px;
+}
+
+.main__container {
+  margin-top: 250px;
+  margin-left: 16.25%;
+}
+
+h2 {
+  font-family: "PlayFair Display";
+  font-weight: bold;
+  font-size: 39px;
+  line-height: 50px;
+  color: #252a34;
+  width: 431px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+h1 {
+    font-family: 'Playfair Display';
+    color: #fff;
+    font-weight: 700;
+    font-size: 48px;
+ }
+ 
+ .main__text {
+    font-family: 'Nunito';
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+ }
+
+.calendar {
+  margin-left: 16.25%;
+  margin-top: 200px;
+}
+
+.calendar__inputs {
+  display: flex;
+  width: 400px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.calendar-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.date-picker,
+.event-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  margin: 5px 0;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+.date-picker:focus,
+.event-input:focus {
+  border-color: #219d80;
+  outline: none;
+}
+.event-list {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 600px;
+}
+.event {
+  background-color: #fff;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.copy-button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #219d80;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#eventDescription {
+    width: 273px;
+   height: 20px;
+   padding: 5px 0 5px 5px;
+   font-size: 14px;
+   font-family: "Montserrat";
+   color: #555555;
+}
+
+@media screen and (max-width:768px) {
+
+    html {
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;
+       height: 400px;
+       padding: 0;
+       margin: 0;
+       overflow-x: hidden;
+     }
+   
+     body {
+      overflow-x: hidden;
+     }
+    h3 {
+       width: 60vw;
+     }
+ 
+     h1 {
+       font-size: 36px;
+       line-height: 48px;
+       width: 70vw;
+       color: #fff;
+     }
+   
+     .main__text {
+       width: 70vw;
+       font-size: 16px;
+       color: #fff;
+     }
+ 
+     h2 {
+       font-size: 24px;
+       line-height: 30px;
+       width: 203px;
+     }
+
+     .calendar__inputs {
+        flex-direction: column;
+        width: 70vw;
+     }
+
+     #datePicker {
+        width: 70vw;
+     }
+
+     #eventPicker {
+        width: 70vw;
+     }
+
+     .event {
+        max-width: 70vw;
+        background-color: #fff;
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        overflow: hidden;
+        word-wrap: break-word;
+        white-space: normal;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1280px) {
+    html {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 500px;
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+      }
+}
