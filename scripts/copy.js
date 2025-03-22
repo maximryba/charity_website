@@ -12,4 +12,8 @@ function copySelectedText() {
   }
 }
 
-document.addEventListener("mouseup", copySelectedText);
+document.addEventListener("keydown", (event) => {
+  if ((event.ctrlKey || event.metaKey) && event.key === 'c') {
+    copySelectedText();
+  }
+})
