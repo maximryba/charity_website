@@ -1,0 +1,284 @@
+main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-top: 100px; 
+}
+
+h1 {
+   font-family: 'Playfair Display';
+   color: #fff;
+   font-weight: 700;
+   font-size: 48px;
+}
+
+.main__text {
+   font-family: 'Nunito';
+   color: #fff;
+   font-size: 16px;
+   font-weight: 600;
+}
+
+html {
+   background-size: 100% 330px;
+ }
+
+ h3 {
+   font-family: "Montserrat";
+   font-size: 18px;
+   color: #252a34;
+ }
+
+ h3::after {
+   margin-bottom: 4px;
+   content: "";
+   display: inline-block;
+   width: 60px;
+   height: 1px;
+   background-color: rgba(0, 0, 0, 0.2);
+   margin-left: 8px;
+ }
+
+ h2 {
+   font-family: "PlayFair Display";
+   font-weight: bold;
+   font-size: 39px;
+   line-height: 50px;
+   color: #252a34;
+   width: 431px;
+   margin-top: 10px;
+   margin-bottom: 0;
+ }
+
+ .faq__container {
+   margin-top: 150px;
+   width: 100%;
+   overflow-x: hidden;
+   height: 750px;
+   background-color: #EDF7F5;
+   padding-top: 50px;
+   padding-bottom: 30px;
+ }
+
+ .faq__line {
+   margin-left: 16.25%;
+   display: flex;
+   align-items: start;
+   justify-content: space-between;
+   width: 75vw;
+   margin-top: 30px;
+ }
+
+ #faq {
+   margin-left: 16.25%;
+ }
+
+ .faq__blocks {
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+ }
+
+ .faq__block {
+   width: 37.8vw;
+   border: 1px solid #E7EAEF;
+   background-color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 30px 15px 30px 15px;
+ }
+
+.opened {
+   background-color: #D0E7E2;
+}
+
+ .faq__title {
+   font-family: 'Playfair Display';
+   font-weight: bold;
+   font-size: 25px;
+ }
+
+ .faq__ans {
+   color: #333;
+   font-family: 'Montserrat';
+
+ }
+
+ .faq__sign {
+   color: #252A34;
+   font-family: 'Playfair Display';
+   font-weight: bold;
+   font-size: 25px;
+ }
+
+ .help__text__head {
+   font-family: 'Montserrat';
+   color: #555;
+   text-align: left;
+   width: 350px;
+   margin-left: 16.25%;
+   margin-top: 30px;
+ }
+
+ #help {
+   margin-left: 16.25%;
+   margin-top: 150px;
+ }
+
+ .help__text {
+   font-family: 'Montserrat';
+   color: #555;
+   text-align: center;
+ }
+
+ .help__title {
+   font-family: 'Playfair Display';
+   color: #252A34;
+   font-weight: bold;
+   font-size: 25px;
+   text-align: center;
+ }
+
+ .help__block {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #EDF7F5;
+   padding-top: 40px;
+   width: 22vw;
+   padding-bottom: 40px;
+ }
+
+ .help__line {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 50px;
+   width: 75vw;
+   margin-left: 16.25%;
+ }
+
+ @media screen and (max-width:768px) {
+
+   html {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 400px;
+      padding: 0;
+      margin: 0;
+      overflow-x: hidden;
+    }
+  
+    body {
+     overflow-x: hidden;
+    }
+
+    h3 {
+      width: 60vw;
+    }
+
+    h1 {
+      font-size: 36px;
+      line-height: 48px;
+      width: 90vw;
+      color: #fff;
+      text-align: center;
+    }
+  
+    .main__text {
+      width: 70vw;
+      font-size: 16px;
+      text-align: center;
+      color: #fff;
+    }
+
+    h2 {
+      font-size: 24px;
+      line-height: 30px;
+      width: 203px;
+    }
+
+    .faq__line {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .help__text__head {
+      width: 80vw;
+    }
+
+    .faq__block {
+      width: 80vw;
+    }
+
+    .faq__img {
+      width: 80vw;
+    }
+
+    .faq__container {
+      height: 1200px;
+    }
+
+    .faq__blocks {
+      width: 90vw;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .help__line {
+      flex-direction: column;
+      margin-left: auto;
+      margin-right: auto;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .help__block {
+      width: 80vw;
+      margin-top: 30px;
+      
+    }
+
+    .help__text {
+      width: 80%;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1280px) {
+   
+   html {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 400px;
+      width: 100vw;
+      padding: 0;
+      margin: 0;
+      overflow-x: hidden;
+    }
+
+    .faq__line {
+      flex-direction: column;
+    }
+
+    .faq__container {
+      height: 1300px;
+    }
+
+    .faq__block {
+      width: 70vw;
+    }
+
+    .faq__ans {
+      width: 70%;
+    }
+
+}

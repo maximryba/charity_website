@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>GiveLife - Цели</title>
+      <link href="../favicon.ico" type="Image/x-icon" rel="icon" />
+      <link rel="stylesheet" href="../styles/header.css">
+      <link rel="stylesheet" href="../styles/calendar.css" />
+      <link rel="stylesheet" href="../styles/footer.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <script src="../scripts/copy.js"></script>
+      <script src="../scripts/calendar.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    </head>
+<body>
+   <div class="container">
+      <header>
+        <div class="logo">
+          <img loading="lazy" src="/assets/img/logo.png" alt="Logo" class="logo__img" />
+        </div>
+
+        <input type="checkbox" class="burger" id="burger-toggle">
+        <label class="burger-label" for="burger-toggle">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+    
+        <nav>
+          <a href="../index.html" class="nav__link">Главная</a>
+          <a href="./causes.html" class="nav__link">Цели</a>
+          <a href="./about_us.html" class="nav__link">О нас</a>
+          <a href="./faq.html" class="nav__link">FAQ</a>
+          <a href="./contact_us.html" class="nav__link">Контакты</a>
+        </nav>
+        <div class="search__block">
+          <button class="filled__button">Связаться</button>
+          <button class="search__button">
+            <img loading="lazy" class="loop__img" src="/assets/img/loop.png" alt="Search" />
+          </button>
+        </div>
+      </header>
+    </div>
+
+    <main>
+      <h1>Календарь событий</h1>
+      <p class="main__text">Главная/Календарь</p>
+    </main>
+
+    <div class="calendar">
+        <h3 class="calendar-header">Интерактивный Календарь</h1>
+            <div class="calendar__inputs">
+                <input type="date" id="datePicker" class="date-picker">
+            <input type="text" id="eventDescription" placeholder="Описание события" />
+            </div>
+            
+            <button class="filled__button" onclick="addEvent()">Добавить событие</button>
+
+            <div class="event-list" id="eventList"></div>
+    </div>
+
+
+    <div class="sponsors">
+      <img loading="lazy" src="../assets/img/sponsor_one.png" alt="Logotype" class="sponsor__img">
+      <img loading="lazy" src="../assets/img/sponsor_two.png" alt="Renew" class="sponsor__img">
+      <img loading="lazy" src="../assets/img/sponsor_three.png" alt="Globe internetional" class="sponsor__img">
+      <img loading="lazy" src="../assets/img/sponsor_four.png" alt="Action" class="sponsor__img">
+    </div>
+
+    <footer>
+      <div class="sections">
+         <div class="section" id="section__one">
+            <img loading="lazy" src="/assets/img/footer_logo.png" alt="GiveLife" class="footer__img">
+            <p class="footer__text__number">10k</p>
+            <p class="footer__text__main">Клиентов по всему миру уже подключились</p>
+         </div>
+         <div class="section" id="section__two">
+            <p class="footer__section">Быстрые ссылки</p>
+            <a href="../index.html" class="footer__link">Главная</a>
+            <a href="./about_us.html" class="footer__link">О нас</a>
+            <a href="./calendar.html" class="footer__link">Календарь</a>
+            <a href="#" class="footer__link">Фото</a>
+         </div>
+         <div class="section" id="section__three">
+            <p class="footer__section">Будьте на связи</p>
+            <a href="./contact_us.html" class="footer__link">Контакты</a>
+            <a href="#" class="footer__link">Наши сервисы</a>
+         </div>
+         <div class="section" id="section__four">
+            <p class="footer__section">Адрес</p>
+            <p class="footer__text">2464 Роял Лн. Меса, Москва 45463</p>
+         </div>
+         <div class="section" id="section__five">
+            <p class="footer__section">Почта</p>
+            <div class="footer__input">
+               <input type="email" class="email__input" placeholder="Введите вашу почту">
+               <button class="button__subscribe">Подписаться</button>
+            </div>
+            <p class="footer__text" id="warning">Ваша почта в безопасности с нами, мы не спамим.</p>
+            <p class="footer__section">Подписаться</p>
+            <div class="medias">
+               <a href="3" class="media__link">
+                  <img loading="lazy" src="../assets/img/twitter.png" alt="Twitter" class="media__img">
+               </a>
+               <a href="#" class="media__link">
+                  <img loading="lazy" src="../assets/img/insta.png" alt="Insta" class="media__img">
+               </a>
+               <a href="#" class="media__link">
+                  <img loading="lazy" src="../assets/img/pinterest.png" alt="Pinterest" class="media__img">
+               </a>
+               <a href="#" class="media__link">
+                  <img loading="lazy" src="../assets/img/youtube.png" alt="Youtube" class="media__img">
+               </a>
+               
+            </div>
+         </div>
+      </div>
+      <div class="footer__line"></div><br>
+      <p class="copyright">Разработано Максимом и Степаном</p>
+    </footer>
+</body>
+</html>
