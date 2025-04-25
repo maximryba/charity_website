@@ -52,8 +52,8 @@
     <div class="calendar">
         <h3 class="calendar-header">Интерактивный Календарь</h1>
             <div class="calendar__inputs">
-                <input type="date" id="datePicker" class="date-picker">
-            <input type="text" id="eventDescription" placeholder="Описание события" />
+                <input type="date" id="datePicker" min="2000-01-01" max="2100-12-31" class="date-picker">
+            <input type="text" id="eventDescription" placeholder="Описание события" maxlength="2000" />
             </div>
             
             <button class="filled__button" onclick="addEvent()">Добавить событие</button>

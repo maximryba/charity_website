@@ -56,22 +56,22 @@
          <form>
             <div class="input__box">
                <label class="form__label" for="first__name">Имя</label>
-               <input placeholder="Your" id="first__name" type="text" class="form__input">
+               <input maxlength="50" placeholder="Your" id="first__name" type="text" class="form__input">
             </div>
             <div class="input__box">
                <label class="form__label" for="last__name">Фамилия</label>
-               <input placeholder="Фамилия" id="last__name" type="text" class="form__input">
+               <input maxlength="50" placeholder="Фамилия" id="last__name" type="text" class="form__input">
             </div>
             <div class="input__box">
                <label class="form__label" for="email">Почта</label>
-            <input placeholder="Ваша почта" id="email" type="email" class="form__input">
+            <input maxlength="100" placeholder="Ваша почта" id="email" type="email" class="form__input">
             </div>
             <div class="input__box">
                <label class="form__label" for="phone">Телефон</label>
-            <input placeholder="+375" id="phone" type="tel" class="form__input">
+            <input maxlength="13" placeholder="+375" id="phone" type="tel" class="form__input">
             </div>
             <div class="input__box">
-            <textarea placeholder="Напишите ваше сообщение здесь..." name="message" id="message"></textarea>
+            <textarea maxlength="2000" placeholder="Напишите ваше сообщение здесь..." name="message" id="message"></textarea>
             </div>
             <button class="filled__button" type="submit">Отправить</button>
          </form>
@@ -121,7 +121,7 @@
          <div class="section" id="section__five">
             <p class="footer__section">Почта</p>
             <div class="footer__input">
-               <input type="email" class="email__input" placeholder="Введите вашу почту">
+               <input maxlength="100" type="email" class="email__input" placeholder="Введите вашу почту">
                <button class="button__subscribe">Subscribe</button>
             </div>
             <p class="footer__text" id="warning">Ваша почта в безопасности с нами, мы не спамим.</p>
