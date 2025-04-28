@@ -1,0 +1,271 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px; 
+ }
+ 
+ h1 {
+    font-family: 'Playfair Display';
+    color: #fff;
+    font-weight: 700;
+    font-size: 48px;
+ }
+ 
+ .main__text {
+    font-family: 'Nunito';
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+ }
+ 
+ html {
+    background-size: 100% 330px;
+  }
+ 
+  h3 {
+    font-family: "Montserrat";
+    font-size: 18px;
+    color: #252a34;
+  }
+ 
+  h3::after {
+    margin-bottom: 4px;
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-left: 8px;
+  }
+ 
+  h2 {
+    font-family: "PlayFair Display";
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 50px;
+    color: #252a34;
+    width: 431px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+ 
+  .get__in__touch__block {
+    margin-top: 150px;
+    margin-left: 16.25%;
+    margin-right: 16.25%;
+  }
+ 
+  form {
+    margin-top: 40px;
+    width: 40.7vw;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+ 
+  .form__input {
+    width: calc(19vw - 20px);
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border: 1px solid #D9D7D7;
+    background-color: #EDF7F5;
+    color: #777777;
+    font-family: 'Montserrat';
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+  }
+ 
+  .input__box {
+    position: relative;
+ 
+  }
+ 
+  .form__label {
+    position: absolute;
+    top: 0px;
+    font-family: 'Montserrat';
+    color: #252A34;
+    font-weight: 500;
+    font-size: 16px;
+  }
+ 
+  textarea {
+    width: calc(40.7vw - 15px);
+    height: 160px;
+    padding-top: 20px;
+    padding-left: 15px;
+    border: 1px solid #D9D7D7;
+    background-color: #EDF7F5;
+    font-family: 'Montserrat';
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 30px;
+  }
+ 
+  .right {
+    width: calc(443px - 40px);
+    background-color: #EDF7F5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 45px;
+  }
+ 
+  .block {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+  }
+ 
+  .right__text {
+    font-family: 'Montserrat';
+    color: #666666;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    width: 403px;
+  }
+ 
+  .right__desc {
+    font-family: 'Montserrat';
+    width: 361px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+    
+  }
+ 
+  .right__span {
+    font-weight: 600;
+  }
+ 
+ 
+ 
+  @media screen and (max-width:768px) {
+ 
+    html {
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;
+       height: 300px;
+       padding: 0;
+       margin: 0;
+       overflow-x: hidden;
+     }
+   
+     body {
+      overflow-x: hidden;
+     }
+ 
+    h3 {
+       width: 60vw;
+     }
+ 
+     h1 {
+       font-size: 36px;
+       line-height: 48px;
+       width: 70vw;
+       text-align: center;
+       color: #fff;
+     }
+   
+     .main__text {
+       width: 70vw;
+       font-size: 16px;
+       text-align: center;
+       color: #fff;
+     }
+ 
+     h2 {
+       font-size: 24px;
+       line-height: 30px;
+       width: 80vw;
+     }
+ 
+     .block {
+       flex-direction: column;
+     }
+ 
+     form {
+       flex-direction: column;
+     }
+ 
+     .form__input {
+       width: 80vw;
+     }
+ 
+     .get__in__touch__block {
+       margin-left: 5vw;
+     }
+ 
+     textarea {
+       width: 80vw;
+     }
+ 
+     .right {
+       margin-left: 0;
+       width: 80vw;
+     }
+ 
+     .right__text {
+       width: 80vw;
+     }
+ 
+     .right__desc {
+       width: 80vw;
+     }
+ }
+ 
+ @media screen and (min-width:767px) and (max-width: 769px) {
+    html {
+       height: 200px;
+    }
+  }
+ 
+ @media screen and (min-width:769px) and (max-width:1280px) {
+    
+    html {
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;
+       height: 400px;
+       width: 100vw;
+       padding: 0;
+       margin: 0;
+       overflow-x: hidden;
+     }
+ 
+ 
+     .block {
+       flex-direction: column;
+     }
+ 
+     form {
+       width: 80vw;
+       flex-direction: column;
+       align-items: start;
+     }
+ 
+     .form__input {
+       width: 60vw;
+     }
+ 
+     textarea {
+       width: 60vw;
+     }
+ 
+     .right {
+       width: 70vw;
+       margin-left: 0;
+     }
+ 
+ }

@@ -1,0 +1,519 @@
+html {
+    background-size: 100% 300px;
+  }
+ 
+  main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+  }
+ 
+  h1 {
+    font-family: 'Playfair Display';
+    color: #fff;
+    font-weight: 700;
+    font-size: 48px;
+ }
+ 
+ .main__text {
+    font-family: 'Nunito';
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+ }
+ 
+ .about__us {
+    margin-top: 150px;
+    margin-left: 16.25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 56.92%;
+  }
+  
+  h3 {
+    font-family: "Montserrat";
+    font-size: 18px;
+    color: #252a34;
+  }
+  
+  h3::after {
+    margin-bottom: 4px;
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-left: 8px;
+  }
+  
+  h2 {
+    font-family: "PlayFair Display";
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 50px;
+    color: #252a34;
+    width: 403px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .block__text {
+    font-family: "Montserrat";
+    color: #444444;
+    width: 433px;
+    line-height: 26px;
+  }
+  
+  .welcome__block {
+    width: 67.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-left: 16.25%;
+  }
+  
+  .welcome {
+    width: 541px;
+  }
+  
+  .welcome__blocks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 530px;
+  }
+  
+  .mission__block {
+    width: 232px;
+    height: 144px;
+    background-color: #edf7f5;
+    padding: 0px 10px 0px 10px;
+  }
+  
+  .vission__block {
+    width: 232px;
+    height: 144px;
+    background-color: #edf7f5;
+    padding: 0px 10px 0px 10px;
+  }
+  
+  .block__line {
+    display: flex;
+    align-items: center;
+  }
+  
+  .block__title {
+    font-family: "Nunito";
+    color: #219d80;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 15px;
+  }
+  
+  .subblock__text {
+    color: #555555;
+    font-family: "Montserrat";
+    font-weight: 400;
+    margin-top: 0;
+    font-size: 14px;
+    width: 204px;
+  }
+
+  .right_about_us {
+    width: 600px;
+    background-color: #EDF7F5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 45px;
+  }
+  
+  .bar__text {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 20px;
+    color: #252a34;
+  }
+  
+  .line {
+    width: 403px;
+    height: 13px;
+    background-color: #219d80;
+  }
+  
+  .line::after {
+    display: inline-block;
+    width: 78px;
+    background-color: #c7e7df;
+    height: 13px;
+    content: "";
+    margin-left: 403px;
+    margin-bottom: 4px;
+  }
+  
+  .bar__line {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    width: 481px;
+  }
+  
+  .bar__percentage {
+    font-family: "Montserrat";
+    font-weight: 700;
+    color: #252a34;
+  }
+ 
+  .about {
+    margin-left: 16.25%;
+    margin-top: 200px;
+  }
+ 
+  .about__blocks {
+    display: flex;
+    align-items: center;
+    width: 67.5vw;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+ 
+  .about__block {
+    width: calc(21.6vw - 20px);
+    height: 539px;
+    padding-top: 30px;
+    padding-left: 20px;
+    background-color: #EDF7F5;
+  }
+ 
+  .colored {
+    background-color: #219D80;
+    color: #fff;
+  }
+ 
+  .about__block__title {
+    font-family: 'Playfair Display';
+    color: #252A34;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+  }
+ 
+  .about__block__desc {
+    color: #555555;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+ 
+  .about__block__text {
+    color: #252A34;
+    font-family: 'Montserrat';
+    margin-top: 15px;
+  }
+ 
+  .colored__text {
+    color: #fff;
+  }
+ 
+  .fun__facts__blocks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 140px;
+    margin-left: 16.25%;
+    width: 67.5vw;
+  }
+  
+  .fun__facts__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 16vw;
+    height: 120%;
+    padding-top: 42px;
+    padding-bottom: 20px;
+    background-color: rgba(33, 157, 128, 0.08);
+  }
+  
+  .fun__facts__number {
+    color: #252a34;
+    font-weight: 700;
+    font-family: "Nunito";
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 48px;
+  }
+  
+  .fun__facts__text {
+    font-family: "Montserrat";
+    font-weight: 600;
+    color: #555555;
+  }
+ 
+  @media screen and (max-width: 769px) {
+ 
+    html {
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;
+       height: 300px;
+       padding: 0;
+       margin: 0;
+       overflow-x: hidden;
+     }
+   
+     body {
+      overflow-x: hidden;
+     }
+ 
+    .filled__button,
+    .empty__button {
+      padding: 8px 16px;
+      font-size: 14px;
+      margin-top: 15px;
+    }
+  
+    .about__us {
+       flex-direction: column;
+       width: 100vw;
+       
+       margin-left: auto;
+       margin-right: auto;
+       padding: 0 15px;
+     }
+   
+     .about__us__img {
+       width: 50%;
+     }
+   
+     .welcome__block {
+       flex-direction: column;
+       width: 80%;
+       
+       align-items: center;
+       padding: 0 15px;
+     }
+   
+     .welcome__img {
+       margin-top: 40px;
+       width: 90%;
+       margin-left: 0;
+     }
+   
+     .welcome__blocks {
+       flex-direction: column;
+       width: 80%;
+     }
+   
+     .mission__block,
+     .vission__block {
+       width: 70%;
+       margin: 10px 0;
+     }
+   
+     .right {
+       width: 70vw;
+     }
+   
+     .block__text {
+       width: 60vw;
+     }
+   
+     .welcome {
+       width: 60vw;
+     }
+   
+     
+   
+     .left {
+       width: 80vw;
+     }
+   
+     .subblock__text {
+       width: fit-content;
+     }
+   
+  
+    .welcome__block {
+      flex-direction: column;
+      width: 80%;
+      
+      align-items: center;
+      padding: 0 15px;
+    }
+  
+    .welcome__img {
+      margin-top: 40px;
+      width: 90%;
+      margin-left: 0;
+    }
+  
+    .welcome__blocks {
+      flex-direction: column;
+      width: 80%;
+    }
+  
+    .mission__block,
+    .vission__block {
+      width: 70%;
+      margin: 10px 0;
+    }
+  
+    .right {
+      width: 70vw;
+    }
+  
+    .block__text {
+      width: 60vw;
+    }
+  
+    .welcome {
+      width: 60vw;
+    }
+ 
+  
+    .fun__facts {
+      
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+      padding: 0 15px;
+    }
+  
+    .fun__facts__blocks {
+      flex-direction: column;
+      width: 70vw;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .fun__facts {
+     margin-left: 0;   
+    }
+  
+    .fun__facts__block {
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    h4 {
+      font-size: 24px;
+    }
+  
+    h2 {
+      font-size: 24px;
+      line-height: 30px;
+      width: 203px;
+    }
+ 
+    h3 {
+       margin-top: 20px;
+    }
+ 
+    .bar {
+       width: 60vw;
+    }
+ 
+    .bar__line {
+       width: 70vw;
+    }
+ 
+    .line {
+       width: 60vw;
+    }
+ 
+    .line::after {
+       width: 10vw;
+       margin-left: 60vw;
+    }
+ 
+    .about__blocks {
+       flex-direction: column;
+       height: 1600px;
+    }
+ 
+    .about__block__text {
+       width: 80%;
+    }
+ 
+    .about__block__desc {
+       width: 80%;
+    }
+ 
+ 
+    .about__block {
+       width: 80vw;
+    }
+  
+  }
+ 
+ 
+  @media screen and (min-width: 769px) and (max-width: 1280px) {
+  
+    html {
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;
+       height: 400px;
+       width: 100vw;
+       padding: 0;
+       margin: 0;
+       overflow-x: hidden;
+     }
+ 
+     .about__blocks {
+       flex-direction: column;
+       height: 1700px;
+     }
+ 
+     .about__block {
+       width: 80vw;
+     }
+ 
+    .about__us {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .welcome__block {
+      flex-direction: column;
+      align-items: center;
+    } 
+ 
+    .block__text {
+       margin-top: 30px;
+       margin-bottom: 30px;
+    }
+ 
+    .mission__block {
+       margin-bottom: 40px;
+    }
+ 
+    .vission__block {
+       margin-bottom: 40px;
+    }
+ 
+    .bar {
+       margin-bottom: 40px;
+    }
+  
+    .fun__facts__blocks {
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .fun__facts__block {
+      margin: 10px;
+      width: 60vw;
+    }
+  }
+  

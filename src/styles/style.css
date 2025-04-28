@@ -1,0 +1,636 @@
+
+.filled__button {
+    padding: 12px 24px;
+    color: #fff;
+    font-family: "Montserrat";
+    background-color: #219d80;
+    border: 0;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: medium;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    color: #fff;
+  }
+  
+  h4 {
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  h1 {
+    font-family: "PlayFair Display";
+    font-size: 72px;
+    font-weight: bold;
+    width: 765px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 90px;
+  }
+  
+  .main__text {
+    font-family: "Montserrat";
+    width: 589px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+  }
+  
+  .empty__button {
+    padding: 12px 24px;
+    color: #000;
+    font-family: "Montserrat";
+    border: 1px solid #219d80;
+    cursor: pointer;
+    background: none;
+    font-size: 16px;
+    font-weight: medium;
+  }
+  
+  .main__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 393px;
+    margin-top: 40px;
+  }
+  
+  .about__us {
+    margin-top: 550px;
+    margin-left: 16.25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 56.92%;
+  }
+  
+
+  h3 {
+    font-family: "Montserrat";
+    font-size: 18px;
+    color: #252a34;
+  }
+  
+  h3::after {
+    margin-bottom: 4px;
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-left: 8px;
+  }
+  
+  h2 {
+    font-family: "PlayFair Display";
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 50px;
+    color: #252a34;
+    width: 403px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .block__text {
+    font-family: "Montserrat";
+    color: #444444;
+    width: 433px;
+    line-height: 26px;
+  }
+  
+  .welcome__block {
+    width: 67.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-left: 16.25%;
+  }
+  
+  .welcome {
+    width: 541px;
+  }
+  
+  .welcome__blocks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 530px;
+  }
+  
+  .mission__block {
+    width: 232px;
+    height: 144px;
+    background-color: #edf7f5;
+    padding: 0px 10px 0px 10px;
+  }
+  
+  .vission__block {
+    width: 232px;
+    height: 144px;
+    background-color: #edf7f5;
+    padding: 0px 10px 0px 10px;
+  }
+  
+  .block__line {
+    display: flex;
+    align-items: center;
+  }
+  
+  .block__title {
+    font-family: "Nunito";
+    color: #219d80;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 15px;
+  }
+  
+  .subblock__text {
+    color: #555555;
+    font-family: "Montserrat";
+    font-weight: 400;
+    margin-top: 0;
+    font-size: 14px;
+    width: 204px;
+  }
+  
+  .bar__text {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 20px;
+    color: #252a34;
+  }
+  
+  .line {
+    width: 403px;
+    height: 13px;
+    background-color: #219d80;
+  }
+  
+  .line::after {
+    display: inline-block;
+    width: 78px;
+    background-color: #c7e7df;
+    height: 13px;
+    content: "";
+    margin-left: 403px;
+    margin-bottom: 4px;
+  }
+
+  .right_block {
+    width: 70vw;
+    background-color: #EDF7F5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 45px;
+  }
+  
+  .bar__line {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    width: 481px;
+  }
+  
+  .bar__percentage {
+    font-family: "Montserrat";
+    font-weight: 700;
+    color: #252a34;
+  }
+  
+  .popular__blocks {
+    margin-top: 200px;
+    margin-left: 16.25%;
+  }
+  
+  .popular__line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+    margin-top: 30px;
+  }
+  
+  .popular__block {
+    width: 306px;
+  }
+  
+  .popular__header {
+    width: 431px;
+  }
+  
+  .popular__block__container {
+    height: 312px;
+    width: 286px;
+    background-color: #fff;
+    box-shadow: 0px 10px 25px 0px #252a3414;
+    margin-top: -18px;
+    padding: 15px 5px 15px 15px;
+  }
+  
+  .popular__block__section {
+    color: #219d80;
+    font-family: "Montserrat";
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  h6 {
+    font-family: "Playfair Display";
+    color: #252a34;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  .popular__block__text {
+    color: #555555;
+    font-family: "Montserrat";
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .popular__bar__text {
+    color: #252a34;
+    margin-bottom: 10px;
+    font-family: "Montserrat";
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  
+  .upper__bar__line {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+  }
+  
+  .below__bar__line {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+  }
+  
+  .progress {
+    font: 12px Arial, Tahoma, sans-serif;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .progress progress {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    left: -777px;
+  }
+  
+  .progress-bar {
+    overflow: hidden;
+    background: #219d80;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .progress-value {
+    background-color: #219d80;
+    display: block;
+    line-height: 21px;
+    text-align: center;
+  }
+  
+  .progress-bg {
+    background: #c7e7df;
+    position: relative;
+    height: 8px;
+    border-radius: 0px;
+    overflow: hidden;
+  }
+  
+  .popular__bar__percentage {
+    color: #252a34;
+    font-family: "Montserrat";
+    font-size: 14px;
+  }
+  
+  .popular__button {
+    border: 1px solid #219d80;
+    width: 134px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: "Montserrat";
+    color: #219d80;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #fff;
+  }
+  
+  .popular__button:hover {
+    background-color: #219d80;
+    color: #fff;
+    border: 0;
+  }
+  
+  .fun__facts {
+    margin-top: 200px;
+    margin-left: 16.25%;
+  }
+  
+  .fun__facts__blocks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 67.5vw;
+  }
+
+  #fun {
+    margin-left: 0;
+  }
+  
+  .fun__facts__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 16vw;
+    height: 120%;
+    padding-top: 42px;
+    padding-bottom: 20px;
+    background-color: rgba(33, 157, 128, 0.08);
+  }
+  
+  .fun__facts__number {
+    color: #252a34;
+    font-weight: 700;
+    font-family: "Nunito";
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 48px;
+  }
+  
+  .fun__facts__text {
+    font-family: "Montserrat";
+    font-weight: 600;
+    color: #555555;
+  }
+  
+  @media screen and (max-width: 768px) {
+  
+    .filled__button,
+    .empty__button {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  
+    main {
+      margin-top: 100px;
+      width: 90vw;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    h1 {
+      font-size: 36px;
+      line-height: 48px;
+      width: 70vw;
+    }
+  
+    .main__text {
+      width: 70vw;
+      font-size: 16px;
+    }
+  
+    .main__buttons {
+      width: 50vw;
+      flex-direction: column;
+    }
+  
+    .main__buttons button {
+      width: 100%;
+      margin: 5px 0;
+    }
+  
+    .about__us {
+      flex-direction: column;
+      width: 100vw;
+      
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0 15px;
+    }
+  
+    .about__us__img {
+      width: 50%;
+    }
+  
+    .welcome__block {
+      flex-direction: column;
+      width: 80%;
+      
+      align-items: center;
+      padding: 0 15px;
+    }
+  
+    .welcome__img {
+      margin-top: 40px;
+      width: 90%;
+      margin-left: 0;
+    }
+  
+    .welcome__blocks {
+      flex-direction: column;
+      width: 80%;
+    }
+  
+    .mission__block,
+    .vission__block {
+      width: 70%;
+      margin: 10px 0;
+    }
+  
+    .right {
+      width: 70vw;
+    }
+  
+    .block__text {
+      width: 60vw;
+    }
+  
+    .welcome {
+      width: 60vw;
+    }
+  
+    
+  
+    .left {
+      width: 80vw;
+    }
+  
+    .subblock__text {
+      width: fit-content;
+    }
+  
+    .line {
+      width: 50vw;
+    }
+  
+    .line::after {
+      margin-left: 50vw;
+    }
+  
+    .bar__line {
+      width: 70vw;
+    }
+  
+    .bar__text {
+      font-size: 1em;
+    }
+  
+    .bar__percentage {
+      font-size: 1em;
+    }
+  
+    .bar {
+      margin-top: 30px;
+    }
+  
+    .popular__blocks {
+      display: flex;
+      flex-direction: column;
+     align-items: center;
+     margin-left: 0;
+      padding: 0 15px;
+    }
+  
+    .popular__line {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .popular__block {
+      width: 100%;
+      align-items: center;
+      flex-direction: column;
+      display: flex;
+      margin-bottom: 20px;
+    }
+  
+    .fun__facts {
+      
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+      padding: 0 15px;
+    }
+  
+    .fun__facts__blocks {
+      flex-direction: column;
+      width: 70vw;
+      margin-left: 0;
+    }
+  
+    .fun__facts {
+     margin-left: 0;   
+    }
+  
+    .fun__facts__block {
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    h4 {
+      font-size: 24px;
+    }
+  
+    h2 {
+      font-size: 24px;
+      line-height: 30px;
+      width: 203px;
+    }
+  
+    .popular__header {
+      width: 203px;
+    }
+  
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1280px) {
+  
+    .main__buttons {
+      width: 40%;
+    }
+  
+    .about__us {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .welcome__block {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .right {
+     margin-top: 40px;
+    }
+  
+    .popular__line {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .popular__block {
+      margin: 10px;
+    }
+  
+  
+    .fun__facts__blocks {
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .fun__facts__block {
+      margin: 10px;
+      width: 60vw;
+    }
+  
+    .block__text {
+     margin-top: 30px;
+     margin-bottom: 30px;
+  }
+  
+  .mission__block {
+     margin-bottom: 40px;
+  }
+  
+  .vission__block {
+     margin-bottom: 40px;
+  }
+  
+  .bar {
+     margin-bottom: 40px;
+  }
+  }
+  
